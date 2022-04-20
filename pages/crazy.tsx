@@ -15,7 +15,9 @@ const CrazyPage: NextPage = () => {
         <P>This is code from a git submodule.</P>
 
         <Link href="/smf-child-1/insane" passHref>
-          <Button size="large">Click Me</Button>
+          <Button as="a" size="large">
+            Click Me
+          </Button>
         </Link>
       </Section>
     </>
