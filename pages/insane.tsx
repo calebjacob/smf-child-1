@@ -1,7 +1,5 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
 
-import { Button } from '@/components/button';
 import { H1 } from '@/components/heading';
 import { P } from '@/components/paragraph';
 import { Section } from '@/components/section';
