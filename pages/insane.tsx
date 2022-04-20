@@ -6,17 +6,19 @@ import { H1 } from '@/components/heading';
 import { P } from '@/components/paragraph';
 import { Section } from '@/components/section';
 
+import { CrazyThing } from '../components/crazy-thing';
+
 const CrazyPage: NextPage = () => {
   return (
     <>
       <Section color="primary" noBorder>
-        <H1>Crazy Page!!!</H1>
+        <H1>Insane Page!!!</H1>
 
         <P>This is code from a git submodule.</P>
+      </Section>
 
-        <Link href="/smf-child-1/insane" passHref>
-          <Button size="large">Click Me</Button>
-        </Link>
+      <Section>
+        <CrazyThing title="ABC"></CrazyThing>
       </Section>
     </>
   );
